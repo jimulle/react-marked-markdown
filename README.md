@@ -1,9 +1,9 @@
-[![Travis branch](https://img.shields.io/travis/Vincent-P/react-marked-markdown/master.svg?maxAge=2592000)]()
-[![npm version](https://badge.fury.io/js/react-marked-markdown.svg)](https://badge.fury.io/js/react-marked-markdown)
-[![npm](https://img.shields.io/npm/dt/react-marked-markdown.svg?maxAge=2592000)]()
-# React Marked Markdown
+[![npm version](https://badge.fury.io/js/react-marked-markdown-lite.svg)](https://badge.fury.io/js/react-marked-markdown-lite)
+[![npm](https://img.shields.io/npm/dt/react-marked-markdown-lite.svg?maxAge=2592000)]()
+# React Marked Markdown Lite
 
 A react components package that helps you use Markdown easily.
+*Forked from react-marked-markdown but without the massive highlight.js dependency
 
 ---
 
@@ -11,10 +11,10 @@ Writing in Markdown is an amazing experience. Setting up all components and pars
 
 ## Basic Usage
 
-* Install with `npm install --save react-marked-markdown`
+* Install with `npm install --save react-marked-markdown-lite`
 * Import component(s) you want
 ```js
-import {  MarkdownPreview  } from 'react-marked-markdown';
+import {  MarkdownPreview  } from 'react-marked-markdown-lite';
 ```
 
 ## MarkdownPreview
@@ -27,7 +27,7 @@ Here is a simple example :
 ```js
 import React from 'react';
 
-import { MarkdownPreview } from 'react-marked-markdown';
+import { MarkdownPreview } from 'react-marked-markdown-lite';
 
 const Post = ({ post }) => (
   <div>
@@ -42,7 +42,7 @@ export default Post;
 
 ### Options
 
-Behind the scenes, **react-marked-markdown** uses **marked** as Markdown parser.
+Behind the scenes, **react-marked-markdown-lite** uses **marked** as Markdown parser.
 So all **marked** options are available here.
 
 Here is an example with default options :
@@ -65,7 +65,7 @@ A list of options can be found [here](https://github.com/chjj/marked#options-1).
 
 ## CSS Classes
 
-All **react-marked-markdown** components are unstyled, meaning that you can style them as you want like every others React elements.
+All **react-marked-markdown-lite** components are unstyled, meaning that you can style them as you want like every others React elements.
 
 ```js
 <MarkdownPreview className="ui post content" value="#Hey !" />
