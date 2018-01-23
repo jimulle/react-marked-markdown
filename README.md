@@ -63,10 +63,6 @@ Here is an example with default options :
 
 A list of options can be found [here](https://github.com/chjj/marked#options-1).
 
-### Syntax highlighting
-
-**react-marked-markdown** supports syntax highlighting with [highlight.js](https://highlightjs.org)
-
 ## CSS Classes
 
 All **react-marked-markdown** components are unstyled, meaning that you can style them as you want like every others React elements.

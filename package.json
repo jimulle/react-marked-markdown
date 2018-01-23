@@ -1,10 +1,10 @@
 {
-  "name": "react-marked-markdown",
-  "version": "1.4.6",
-  "description": "Some React Components to use Markdown easily",
+  "name": "react-marked-markdown-lite",
+  "version": "1.0.0",
+  "description": "Fork of react-marked-markdown without the heavy highlight.js dependency",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vincent-p/react-marked-markdown.git"
+    "url": ""
   },
   "license": "MIT",
   "scripts": {
@@ -40,7 +40,6 @@
     "babel-runtime": "6.x.x",
     "chai": "^3.5.0",
     "enzyme": "^2.4.1",
-    "highlight.js": "^9.3.0",
     "marked": "^0.3.5",
     "prop-types": "^15.5.10"
   },
